@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="789dp"
+    tools:context=".activityHome"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="delivery to"
+        android:textAllCaps="true"
+        android:textSize="19sp"
+        android:fontFamily="@font/poppins_bold"
+        android:textColor="#064420"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Centre Point PIK2"
+        android:textSize="14sp"
+        android:fontFamily="@font/poppins_medium"
+        android:layout_marginLeft="20dp"
+        android:textColor="#064420"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/notiff"
+        android:layout_marginTop="-40dp"
+        android:layout_marginLeft="320dp"
+        android:clickable="true"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/order"
+        android:layout_marginTop="-23dp"
+        android:layout_marginLeft="355dp"
+        android:clickable="true"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bawah"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="147dp"
+        android:clickable="true"
+        />
+
+    <EditText
+        android:layout_width="370dp"
+        android:layout_height="48dp"
+        android:hint="Search"
+        android:paddingTop="5dp"
+        android:paddingLeft="25dp"
+        android:fontFamily="@font/poppins_medium"
+        android:textSize="13sp"
+        android:textColor="#FDFAF6"
+        android:layout_gravity="center"
+        android:background="@drawable/bgsearch"
+        android:layout_marginTop="35dp"
+        />
+
+    <ImageButton
+        android:id="@+id/cari"
+        android:layout_width="25dp"
+        android:layout_height="20dp"
+        android:background="@drawable/search"
+        android:layout_marginTop="-35dp"
+        android:layout_marginLeft="350dp"
+        android:clickable="true"
+        />
+
+    <ImageView
+        android:id="@+id/nearme"
+        android:layout_width="113dp"
+        android:layout_height="115dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/near"
+        android:clickable="true"
+        />
+
+    <ImageView
+        android:id="@+id/disc"
+        android:layout_width="113dp"
+        android:layout_height="115dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="-116dp"
+        android:src="@drawable/disc"
+        android:clickable="true"
+        />
+
+    <ImageView
+        android:id="@+id/top"
+        android:layout_width="113dp"
+        android:layout_height="119dp"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="-118dp"
+        android:src="@drawable/top"
+        android:clickable="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Categories"
+        android:textColor="#064420"
+        android:textSize="15sp"
+        />
+
+    <ImageButton
+        android:id="@+id/seeCategories"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:background="@drawable/seeall"
+        android:layout_marginTop="-23dp"
+        android:layout_marginLeft="310dp"
+        android:clickable="true"
+        />
+
+    <ImageButton
+        android:id="@+id/minum"
+        android:layout_width="78dp"
+        android:layout_height="82dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/drink"
+        android:clickable="true"
+        />
+
+    <ImageButton
+        android:id="@+id/korea"
+        android:layout_width="78dp"
+        android:layout_height="82dp"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="-82dp"
+        android:background="@drawable/korean"
+        android:clickable="true"
+        />
+
+    <ImageButton
+        android:id="@+id/jepang"
+        android:layout_width="78dp"
+        android:layout_height="82dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="-82dp"
+        android:background="@drawable/jepang"
+        android:clickable="true"
+        />
+
+    <ImageButton
+        android:id="@+id/western"
+        android:layout_width="78dp"
+        android:layout_height="82dp"
+        android:layout_marginLeft="310dp"
+        android:layout_marginTop="-82dp"
+        android:background="@drawable/western"
+        android:clickable="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Recommendation"
+        android:textColor="#064420"
+        android:textSize="15sp"
+        />
+
+    <ImageButton
+        android:id="@+id/seeRecom"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:background="@drawable/seeall"
+        android:layout_marginTop="-23dp"
+        android:layout_marginLeft="310dp"
+        android:clickable="true"
+        />
+
+    <ImageButton
+        android:id="@+id/hokben"
+        android:layout_width="170dp"
+        android:layout_height="106dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/hokben"
+        android:clickable="true"
+        />
+
+    <ImageButton
+        android:id="@+id/pagisore"
+        android:layout_width="170dp"
+        android:layout_height="106dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="-106dp"
+        android:background="@drawable/pagisore"
+        android:clickable="true"
+        />
+
+    <ImageButton
+        android:id="@+id/kfc"
+        android:layout_width="170dp"
+        android:layout_height="106dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/kfc"
+        android:clickable="true"
+        />
+
+    <ImageButton
+        android:id="@+id/sbux"
+        android:layout_width="170dp"
+        android:layout_height="106dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="-106dp"
+        android:background="@drawable/sb"
+        android:clickable="true"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="43dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bgnav" />
+
+</LinearLayout>

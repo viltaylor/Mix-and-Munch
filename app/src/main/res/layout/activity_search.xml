@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="789dp"
+    android:orientation="vertical"
+    tools:context=".ActivitySearch">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Search"
+        android:textColor="#064420"
+        android:textSize="20sp" />
+
+    <ImageButton
+        android:id="@+id/balik"
+        android:layout_width="9dp"
+        android:layout_height="14dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="-26dp"
+        android:clickable="true"
+        android:src="@drawable/back" />
+
+    <EditText
+        android:layout_width="370dp"
+        android:layout_height="48dp"
+        android:hint="What would you like to eat"
+        android:paddingTop="5dp"
+        android:paddingLeft="25dp"
+        android:fontFamily="@font/poppins_medium"
+        android:textSize="13sp"
+        android:textColor="#FDFAF6"
+        android:layout_gravity="center"
+        android:background="@drawable/bgsearch"
+        android:layout_marginTop="40dp"
+        />
+
+    <ImageView
+        android:id="@+id/cari"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/search"
+        android:layout_marginTop="-30dp"
+        android:layout_marginLeft="350dp"
+        android:clickable="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Your Search History"
+        android:textColor="#064420"
+        android:textSize="13sp"
+        />
+
+    <ImageView
+        android:id="@+id/history"
+        android:layout_width="367dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/historysearch"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Popular searches"
+        android:textColor="#064420"
+        android:textSize="13sp"
+        />
+
+    <ImageView
+        android:id="@+id/popular"
+        android:layout_width="367dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/popular"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Restos you’ve searched"
+        android:textColor="#064420"
+        android:textSize="13sp"
+        />
+
+    <ImageView
+        android:id="@+id/restoo"
+        android:layout_width="367dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/restoo"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Explore by cuisine"
+        android:textColor="#064420"
+        android:textSize="13sp"
+        />
+
+    <ImageView
+        android:id="@+id/explore"
+        android:layout_width="367dp"
+        android:layout_height="190dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:clickable="true"
+        android:background="@drawable/explore"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bgnav"
+        />
+
+</LinearLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="789dp"
+    android:orientation="vertical"
+    tools:context=".drinkActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Drinks"
+        android:textColor="#064420"
+        android:textSize="20sp" />
+
+    <ImageButton
+        android:id="@+id/balik"
+        android:layout_width="9dp"
+        android:layout_height="14dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="-26dp"
+        android:clickable="true"
+        android:src="@drawable/back" />
+
+    <ImageButton
+        android:id="@+id/sbux"
+        android:layout_width="333dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/sbux"
+        />
+
+    <ImageButton
+        android:id="@+id/momoyo"
+        android:layout_width="333dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/momyo"
+        />
+
+    <ImageButton
+        android:id="@+id/fore"
+        android:layout_width="333dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/fore"
+        />
+
+    <ImageButton
+        android:id="@+id/janjiw"
+        android:layout_width="333dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/janjiw"
+        />
+
+    <ImageButton
+        android:id="@+id/teazzi"
+        android:layout_width="333dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/teazzi"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bgnav"
+        />
+
+</LinearLayout>

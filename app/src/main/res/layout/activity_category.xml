@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="789dp"
+    android:orientation="vertical"
+    tools:context=".CategoryActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Categories"
+        android:textColor="#064420"
+        android:textSize="20sp" />
+
+    <ImageButton
+        android:id="@+id/balik"
+        android:layout_width="9dp"
+        android:layout_height="14dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="-26dp"
+        android:clickable="true"
+        android:src="@drawable/back" />
+
+    <ImageButton
+        android:id="@+id/minum"
+        android:layout_width="113dp"
+        android:layout_height="128dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/minum"
+        android:clickable="true" />
+
+    <ImageButton
+        android:id="@+id/snack"
+        android:layout_width="113dp"
+        android:layout_height="128dp"
+        android:layout_marginLeft="152dp"
+        android:layout_marginTop="-128.5dp"
+        android:background="@drawable/snack"
+        android:clickable="true" />
+
+    <ImageButton
+        android:id="@+id/rice"
+        android:layout_width="113dp"
+        android:layout_height="128dp"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="-128.5dp"
+        android:background="@drawable/rice"
+        android:clickable="true" />
+
+    <ImageButton
+        android:id="@+id/chicken"
+        android:layout_width="113dp"
+        android:layout_height="128dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/chicken"
+        android:clickable="true" />
+
+    <ImageButton
+        android:id="@+id/fastfood"
+        android:layout_width="113dp"
+        android:layout_height="128dp"
+        android:layout_marginLeft="152dp"
+        android:layout_marginTop="-128.5dp"
+        android:background="@drawable/fastfood"
+        android:clickable="true" />
+
+    <ImageButton
+        android:id="@+id/korean"
+        android:layout_width="113dp"
+        android:layout_height="128dp"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="-128.5dp"
+        android:background="@drawable/korea"
+        android:clickable="true" />
+
+    <ImageButton
+        android:id="@+id/jepang"
+        android:layout_width="113dp"
+        android:layout_height="128dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/jepangg"
+        android:clickable="true" />
+
+    <ImageButton
+        android:id="@+id/thai"
+        android:layout_width="113dp"
+        android:layout_height="128dp"
+        android:layout_marginLeft="152dp"
+        android:layout_marginTop="-128.5dp"
+        android:background="@drawable/thai"
+        android:clickable="true" />
+
+    <ImageButton
+        android:id="@+id/indo"
+        android:layout_width="113dp"
+        android:layout_height="128dp"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="-128.5dp"
+        android:background="@drawable/indo"
+        android:clickable="true" />
+
+    <ImageButton
+        android:id="@+id/china"
+        android:layout_width="113dp"
+        android:layout_height="128dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/china"
+        android:clickable="true" />
+
+    <ImageButton
+        android:id="@+id/western"
+        android:layout_width="113dp"
+        android:layout_height="128dp"
+        android:layout_marginLeft="152dp"
+        android:layout_marginTop="-128.5dp"
+        android:background="@drawable/bule"
+        android:clickable="true" />
+
+    <ImageButton
+        android:id="@+id/pasta"
+        android:layout_width="113dp"
+        android:layout_height="128dp"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="-128.5dp"
+        android:background="@drawable/pasta"
+        android:clickable="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/bgnav" />
+
+</LinearLayout>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="789dp"
+    android:orientation="vertical"
+    tools:context=".McdActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="MCDonald’s, PIK"
+        android:textColor="#064420"
+        android:textSize="20sp" />
+
+    <ImageButton
+        android:id="@+id/balik"
+        android:layout_width="9dp"
+        android:layout_height="14dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="-26dp"
+        android:clickable="true"
+        android:src="@drawable/back" />
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="16dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/rating"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Recommended"
+        android:textColor="#064420"
+        android:textSize="13sp"
+        />
+
+    <ImageView
+        android:id="@+id/menu1"
+        android:layout_width="366dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/menu1"
+        />
+
+    <ImageButton
+        android:id="@+id/addMenu1"
+        android:layout_width="62dp"
+        android:layout_height="16dp"
+        android:layout_marginTop="-25dp"
+        android:layout_marginLeft="315dp"
+        android:background="@drawable/add"
+        android:clickable="true"/>
+
+    <ImageView
+        android:id="@+id/menu2"
+        android:layout_width="366dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/menu2"
+        />
+
+    <ImageButton
+        android:id="@+id/addMenu2"
+        android:layout_width="62dp"
+        android:layout_height="16dp"
+        android:layout_marginTop="-25dp"
+        android:layout_marginLeft="315dp"
+        android:background="@drawable/add"
+        android:clickable="true"/>
+
+    <ImageView
+        android:id="@+id/menu3"
+        android:layout_width="366dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/menu3"
+        />
+
+    <ImageButton
+        android:id="@+id/addMenu3"
+        android:layout_width="62dp"
+        android:layout_height="16dp"
+        android:layout_marginTop="-25dp"
+        android:layout_marginLeft="315dp"
+        android:background="@drawable/add"
+        android:clickable="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="27dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="PaNas"
+        android:textColor="#064420"
+        android:textSize="13sp"
+        />
+
+    <ImageView
+        android:id="@+id/panas1"
+        android:layout_width="366dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/panas1"
+        />
+
+    <ImageButton
+        android:id="@+id/addPanas1"
+        android:layout_width="62dp"
+        android:layout_height="16dp"
+        android:layout_marginTop="-25dp"
+        android:layout_marginLeft="315dp"
+        android:background="@drawable/add"
+        android:clickable="true"/>
+
+    <ImageView
+        android:id="@+id/panas2"
+        android:layout_width="366dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/panas2"
+        />
+
+    <ImageButton
+        android:id="@+id/addPanas2"
+        android:layout_width="62dp"
+        android:layout_height="16dp"
+        android:layout_marginTop="-25dp"
+        android:layout_marginLeft="315dp"
+        android:background="@drawable/add"
+        android:clickable="true"/>
+
+    <ImageView
+        android:id="@+id/panas3"
+        android:layout_width="366dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/panas3"
+        />
+
+    <ImageButton
+        android:id="@+id/addPanas3"
+        android:layout_width="62dp"
+        android:layout_height="16dp"
+        android:layout_marginTop="-25dp"
+        android:layout_marginLeft="315dp"
+        android:background="@drawable/add"
+        android:clickable="true"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/bgnav"
+        />
+
+</LinearLayout>

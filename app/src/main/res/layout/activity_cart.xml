@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="789dp"
+    android:orientation="vertical"
+    tools:context=".CartActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="MCDonald’s, PIK"
+        android:textColor="#064420"
+        android:textSize="20sp" />
+
+    <ImageButton
+        android:id="@+id/balik"
+        android:layout_width="9dp"
+        android:layout_height="14dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="-26dp"
+        android:clickable="true"
+        android:src="@drawable/back" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="9dp"
+        android:text="Delivery fee calculated at 17:39"
+        android:textSize="12sp"
+        android:fontFamily="@font/poppins_bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delivery Location"
+        android:textAllCaps="false"
+        android:textSize="14sp"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="#064420"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Centre Point PIK2"
+        android:textSize="16sp"
+        android:fontFamily="@font/poppins_bold"
+        android:layout_marginLeft="20dp"
+        android:textColor="#064420"
+        />
+
+    <ImageButton
+        android:layout_width="110dp"
+        android:layout_height="20dp"
+        android:background="@drawable/change"
+        android:layout_marginTop="-50dp"
+        android:layout_marginLeft="270dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Order Details"
+        android:textColor="#064420"
+        android:textSize="13sp"
+        />
+
+    <ImageView
+        android:id="@+id/order1"
+        android:layout_width="366dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/panas1"
+        />
+
+    <ImageButton
+        android:id="@+id/addorder1"
+        android:layout_width="50dp"
+        android:layout_height="19dp"
+        android:clickable="true"
+        android:layout_marginTop="-20dp"
+        android:layout_marginLeft="330dp"
+        android:background="@drawable/nambar"/>
+
+    <ImageView
+        android:id="@+id/order2"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/order2"
+        />
+
+    <ImageButton
+        android:id="@+id/addorder2"
+        android:layout_width="50dp"
+        android:layout_height="19dp"
+        android:clickable="true"
+        android:layout_marginTop="-20dp"
+        android:layout_marginLeft="330dp"
+        android:background="@drawable/nambar"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="35dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Need anything else?"
+        android:textColor="#064420"
+        android:textSize="13sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="@font/poppins"
+        android:text="Add other dishes, if you want"
+        android:textColor="#064420"
+        android:textSize="11sp" />
+
+    <ImageButton
+        android:id="@+id/addmoredishes"
+        android:layout_width="111dp"
+        android:layout_height="20dp"
+        android:clickable="true"
+        android:background="@drawable/addmore"
+        android:layout_marginTop="-40dp"
+        android:layout_marginLeft="280dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="45dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Payment Summary"
+        android:textColor="#064420"
+        android:textSize="13sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/poppins"
+        android:text="Subtotal"
+        android:textColor="#064420"
+        android:textSize="11sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="330dp"
+        android:layout_marginTop="-19dp"
+        android:fontFamily="@font/poppins"
+        android:text="Rp. 53.500"
+        android:textColor="#064420"
+        android:textSize="11sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/poppins"
+        android:text="Delivery Fee"
+        android:textColor="#064420"
+        android:textSize="11sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="334dp"
+        android:layout_marginTop="-19dp"
+        android:fontFamily="@font/poppins"
+        android:text="Rp. 17.500"
+        android:textColor="#064420"
+        android:textSize="11sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/poppins"
+        android:text="Order Fee"
+        android:textColor="#064420"
+        android:textSize="11sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="336dp"
+        android:layout_marginTop="-19dp"
+        android:fontFamily="@font/poppins"
+        android:text="Rp. 2.500"
+        android:textColor="#064420"
+        android:textSize="11sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Total Payment"
+        android:textColor="#064420"
+        android:textSize="13sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="-20dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Rp. 73.500"
+        android:textColor="#064420"
+        android:textSize="13sp" />
+
+    <ImageButton
+        android:layout_width="367dp"
+        android:layout_height="33dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/discount"/>
+
+    <ImageButton
+        android:id="@+id/placeorder"
+        android:layout_width="162dp"
+        android:layout_height="36dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/placeorder"/>
+
+</LinearLayout>

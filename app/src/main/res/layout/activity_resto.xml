@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="789dp"
+    android:orientation="vertical"
+    tools:context=".RestoActivity">
+
+    <TextView
+        android:layout_width="340dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:background="@drawable/mcdbang"
+        android:textColor="#064420"
+        android:textSize="20sp" />
+
+    <ImageButton
+        android:id="@+id/balik"
+        android:layout_width="9dp"
+        android:layout_height="14dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="-23dp"
+        android:clickable="true"
+        android:src="@drawable/back" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Found result for “McDonald’s”"
+        android:textColor="#064420"
+        android:textSize="13sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Show me “McD” instead"
+        android:textColor="#94064420"
+        android:textSize="10sp"
+        />
+
+    <Button
+        android:id="@+id/result"
+        android:layout_width="80dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#4D064420"
+        android:fontFamily="@font/inter_semibold"
+        android:text="Top Result"
+        android:textSize="8sp"
+        android:textAllCaps="false"
+        android:textColor="#FDFAF6" />
+
+    <Button
+        android:id="@+id/dishes"
+        android:layout_width="80dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="-35dp"
+        android:backgroundTint="#4D064420"
+        android:fontFamily="@font/inter_semibold"
+        android:text="Dishes"
+        android:textSize="8sp"
+        android:textAllCaps="false"
+        android:textColor="#FDFAF6" />
+
+    <ImageView
+        android:id="@+id/pik"
+        android:layout_width="320dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/mcdpik"
+        android:clickable="true"
+        />
+
+    <ImageView
+        android:id="@+id/puri"
+        android:layout_width="326dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/mcdpuri"
+        android:clickable="true"
+        />
+
+    <ImageView
+        android:id="@+id/meruya"
+        android:layout_width="356dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/mcdmeruya"
+        android:clickable="true"
+        />
+
+    <ImageView
+        android:id="@+id/citra"
+        android:layout_width="351dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/mcdcitra"
+        android:clickable="true"
+        />
+
+    <ImageView
+        android:id="@+id/gambir"
+        android:layout_width="356dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/mcdgambir"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/bgnav"
+        />
+
+</LinearLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="789dp"
+    android:orientation="vertical"
+    android:background="#FDFAF6"
+    tools:context=".activityLogin"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:layout_gravity="center"
+        android:layout_marginTop="143dp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#064420"
+        android:fontFamily="@font/poppins_bold"
+        />
+
+    <EditText
+        android:id="@+id/usernameTf"
+        android:layout_width="310dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/usnbg"
+        android:fontFamily="@font/inter"
+        android:hint="Username"
+        android:paddingLeft="45dp"
+        android:inputType="text"
+        android:textSize="13sp"
+        android:textColor="#FDFAF6" />
+
+    <EditText
+        android:id="@+id/passwordTf"
+        android:layout_width="310dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/pwbg"
+        android:fontFamily="@font/inter"
+        android:hint="Password"
+        android:paddingLeft="45dp"
+        android:inputType="textPassword"
+        android:textSize="13sp"
+        android:textColor="#FDFAF6"
+        />
+
+    <Button
+        android:id="@+id/signInButton"
+        android:layout_width="173dp"
+        android:layout_height="50dp"
+        android:text="Sign In"
+        android:fontFamily="@font/poppins_medium"
+        android:layout_marginTop="150dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#59064420"
+        />
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_width="250dp"
+        android:layout_height="15dp"
+        android:background="@drawable/or"
+        android:layout_gravity="center"
+        />
+
+    <ImageButton
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@drawable/google"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/apple"
+        android:layout_marginLeft="205dp"
+        android:layout_marginTop="-50dp"
+        />
+
+    <ImageButton
+        android:id="@+id/gapunyaakun"
+        android:layout_marginTop="10dp"
+        android:layout_width="200dp"
+        android:layout_height="15dp"
+        android:background="@drawable/signupacc"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>

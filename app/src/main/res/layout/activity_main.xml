@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="789dp"
+    android:background="#FDFAF6"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="158dp"
+        android:layout_height="72dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="130dp"
+        android:background="@drawable/logo" />
+
+    <ImageView
+        android:layout_width="291dp"
+        android:layout_height="335dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ikonsplash" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Start Your Mix n Munch Journey Today!"
+        android:textColor="#064420"
+        android:textStyle="bold"
+        android:layout_marginTop="-15dp"
+        android:textSize="11sp"/>
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="173dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#59064420"
+        android:fontFamily="@font/inter_semibold"
+        android:text="Let's Start"
+        android:textAllCaps="false"
+        android:textColor="#FDFAF6" />
+
+</LinearLayout>
